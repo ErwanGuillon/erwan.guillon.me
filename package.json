@@ -1,0 +1,27 @@
+{
+  "name": "ErwanGuillon",
+  "title": "Website erwan.guillon.me",
+  "author": "Erwan Guillon",
+  "url": "http://erwan.guillon.me/",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ErwanGuillon/erwan.guillon.me.git"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-group-css-media-queries": "^1.1.0",
+    "gulp-imageoptim": "^1.0.2",
+    "gulp-include": "^2.1.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-svg-sprite": "^1.2.19",
+    "gulp-svg2png": "^1.0.0",
+    "gulp-uglify": "^1.5.2",
+    "jshint": "^2.9.1"
+  }
+}
