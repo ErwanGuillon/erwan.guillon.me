@@ -52,7 +52,9 @@ gulp.task('images', function() {
 
 gulp.task('browser-sync', function() {
   browserSync({
-    proxy: "ay-landing.dev"
+    server: {
+      baseDir: "./dist/"
+    }
   });
 });
 
@@ -63,6 +65,6 @@ gulp.task('bs-reload', function () {
 gulp.task('default', ['css', 'js', 'jshint', 'browser-sync'], function () {
     gulp.watch("src/scss/**/*.scss", ['css']);
     gulp.watch("src/js/**/*.js", ['js', 'jshint']);
-    gulp.watch("**/*.php", ['bs-reload']);
+    gulp.watch("**/*.html", ['bs-reload']);
     gulp.watch("dist/assets/img/*.*", ['bs-reload']);
 });

@@ -1,0 +1,18 @@
+.intro{
+  margin-top: $grid-gutter-width;
+  text-align: center;
+  position: relative;
+  padding-top: $profile-diam/2;
+  .profile{
+    display: block;
+    margin: 0 auto $grid-gutter-width auto;
+    border-radius: 50%;
+    position: absolute;
+    top: -$profile-diam/2 - $grid-gutter-width - $profile-border;
+    left: 0;
+    right: 0;
+    border: $profile-border solid $body-bg;
+    width: $profile-diam;
+    height: $profile-diam;
+  }
+}
