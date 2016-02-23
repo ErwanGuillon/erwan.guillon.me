@@ -2,3 +2,24 @@
   background: white;
   margin-top: $grid-gutter-width + $profile-diam/2;
 }
+
+h2{
+
+}
+
+h3{
+  margin: 0;
+}
+
+.experience, .education{
+  border-bottom: 1px solid $body-bg;
+  &:last-child{
+    border: 0;
+  }
+  .employer, .school{
+    font-weight: bold;
+  }
+  .dates{
+    font-size: 14px;
+  }
+}
