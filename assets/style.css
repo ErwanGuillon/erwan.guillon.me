@@ -2271,6 +2271,32 @@ tbody.collapse.in {
   margin-top: 105px;
 }
 
+h3 {
+  margin: 0;
+}
+
+.experience,
+.education {
+  border-bottom: 1px solid #ededed;
+}
+
+.experience:last-child,
+.education:last-child {
+  border: 0;
+}
+
+.experience .employer,
+.experience .school,
+.education .employer,
+.education .school {
+  font-weight: bold;
+}
+
+.experience .dates,
+.education .dates {
+  font-size: 14px;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
