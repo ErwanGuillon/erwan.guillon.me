@@ -7,6 +7,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/assets/style.min.css">
+    <script src="/assets/js/svg4everybody.min.js"></script>
+    <script>svg4everybody();</script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -32,13 +34,33 @@
           <h2>About</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur lacus libero, ut molestie lacus placerat vel. Ut quis condimentum neque, quis scelerisque elit. Praesent molestie est eu ipsum blandit consequat. Maecenas ipsum ipsum, bibendum eget porttitor sed, pellentesque eu tellus. Fusce vitae lacinia tortor. Praesent quis justo sem. Nulla commodo, leo scelerisque fringilla dapibus, ex tellus auctor purus, non tempus felis nisi vitae tortor.</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 contact">
           <h2>Contact</h2>
           <ul>
-            <li>tel : +33 (0)1 23 45 67 89</li>
-            <li>email : toto@toto.fr</li>
-            <li>website : <a href="http://erwan.guillon.me/">erwan.guillon.me</a></li>
-            <li>adress : 1, rue de la gare - 75001 Paris</li>
+            <li>
+              <svg role="img" title="Phone" class="icon">
+                <use xlink:href="/assets/img/svg/sprite.svg#tel"/>
+              </svg>
+              <a href="+33123456789" title="Contact me by phone">+33 (0)1 23 45 67 89</a>
+            </li>
+            <li>
+              <svg role="img" title="Email" class="icon">
+                <use xlink:href="/assets/img/svg/sprite.svg#at"/>
+              </svg>
+              <a href="mailto:toto@toto.fr" title="Contact me by mail">toto@toto.fr</a>
+            </li>
+            <li>
+              <svg role="img" title="Link" class="icon">
+                <use xlink:href="/assets/img/svg/sprite.svg#link"/>
+              </svg>
+              <a href="http://erwan.guillon.me/" title="See my website">erwan.guillon.me</a>
+            </li>
+            <li>
+              <svg role="img" title="Adress" class="icon">
+                <use xlink:href="/assets/img/svg/sprite.svg#pin"/>
+              </svg>
+              <a href="http://maps.google.com/" title="See where I live">1, rue de la gare - 75001 Paris</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -46,32 +68,9 @@
         <div class="col-md-8">
           <h2>Experiences</h2>
           <div class="row experience">
-            <div class="col-md-3">
-              <div class="employer">Employer</div>
+            <div class="col-md-12">
+              <h3>Job title @ Employer</h3>
               <div class="dates">2015-2016</div>
-            </div>
-            <div class="col-md-9">
-              <h3>Job title</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur lacus libero, ut molestie lacus placerat vel.</p>
-            </div>
-          </div>
-          <div class="row experience">
-            <div class="col-md-3">
-              <div class="employer">Employer</div>
-              <div class="dates">2015-2016</div>
-            </div>
-            <div class="col-md-9">
-              <h3>Job title</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur lacus libero, ut molestie lacus placerat vel.</p>
-            </div>
-          </div>
-          <div class="row experience">
-            <div class="col-md-3">
-              <div class="employer">Employer</div>
-              <div class="dates">2015-2016</div>
-            </div>
-            <div class="col-md-9">
-              <h3>Job title</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur lacus libero, ut molestie lacus placerat vel.</p>
             </div>
           </div>

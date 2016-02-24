@@ -2275,6 +2275,25 @@ h3 {
   margin: 0;
 }
 
+.contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact li {
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.contact .icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
 .experience,
 .education {
   border-bottom: 1px solid #ededed;
